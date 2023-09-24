@@ -17,17 +17,17 @@ body {
 .workshops h1{
 	text-align: center;
 	font-size: 50px;
-	color: #ffffff;
+	color: #f3eded;
 }
 .workshops p{
 	font-size: 20px;
-	color: #ffffff;
+	color: #f3eded;
 }
 	li {
 		list-style-image: url("icon-plus.png");
 		line-height: 1.6em;
 		font-size: 20px;
-		color: #ffffff;
+		color: #f3eded;
 	}
 
 	table {
@@ -70,6 +70,7 @@ body {
 	tr.even td, tr.even th {
 		background-color: #926A48;
 		border-left: 2px solid #ffffff;
+		color: #e5eaed;
 	}
 
 	tr.head th:first-child {
