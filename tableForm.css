@@ -51,7 +51,7 @@ body {
 	}
 	
 	tr.head th {
-		color: #fff;
+		color: #ffffff;
 		background-color: #4D291D;
 		border-bottom: 2px solid #547ca0;
 		border-right: 1px solid #749abe;
@@ -62,7 +62,7 @@ body {
 	}
 	
 	td {
-		text-shadow: 1px 1px 1px #ffffff;
+		text-shadow: 1px 1px 1px #cd863a;
 	}
 
 	tr.even td, tr.even th {
@@ -84,15 +84,15 @@ body {
 	fieldset {
 		width: 310px;
 		margin-top: 20px;
-		border: 1px solid #d6d6d6;
-		background-color: #ffffff;
+		border: 3px solid #d6d6d6;
+		background-color: #CFA76E;
 		line-height: 1.6em;
 		margin: auto;
 	}
 
 	legend {
 		font-style: italic;
-		color: #666666;
+		color: #ffffff;
 	}
 
 	input[type="text"] {
@@ -109,8 +109,8 @@ body {
 	}
 
 	input[type="submit"] {
-		border: 1px solid #006633;
-		background-color: #009966;
+		border: 1px solid #d59843;
+		background-color: #AD926B;
 		color: #ffffff;
 		border-radius: 5px;
 		padding: 5px;
