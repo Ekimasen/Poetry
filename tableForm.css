@@ -6,7 +6,7 @@ body {
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
-		font-family: 'felixtowe', sans-serif;
+		font-family:'felixtowe', sans-serif;
 	}
 .workshops{
 	margin: auto;
@@ -45,17 +45,19 @@ body {
 	th, td {
 		text-align: left;
 		background-color: #BB9E74;
-		border-top: 1px solid #f1f8fe;
-		border-bottom: 1px solid #cbd2d8;
-		border-right: 1px solid #cbd2d8;
+		border-top: 2px solid #f1f8fe;
+		border-bottom: 2px solid #cbd2d8;
+		border-right: 2px solid #cbd2d8;
+		border-left: 2px solid #ffffff;
 	}
 	
 	tr.head th {
 		color: #ffffff;
 		background-color: #4D291D;
-		border-bottom: 2px solid #547ca0;
-		border-right: 1px solid #749abe;
-		border-top: 1px solid #90b4d6;
+		border-bottom: 2px solid #ffffff;
+		border-right: 2px solid #ffffff;
+		border-top: 2px solid #ffffff;
+		border-left: 2px solid #ffffff;
 		text-align: center;
 		text-shadow: -1px -1px 1px #666666;
 		letter-spacing: 0.15em;
@@ -67,6 +69,7 @@ body {
 
 	tr.even td, tr.even th {
 		background-color: #926A48;
+		border-left: 2px solid #ffffff;
 	}
 
 	tr.head th:first-child {
@@ -82,7 +85,7 @@ body {
 	}
 
 	fieldset {
-		width: 310px;
+		width: 500px;
 		margin-top: 20px;
 		border: 3px solid #d6d6d6;
 		background-color: #CFA76E;
@@ -96,8 +99,8 @@ body {
 	}
 
 	input[type="text"] {
-		width: 120px;
-		border: 1px solid #d6d6d6;
+		width: 300px;
+		border: 2px solid #928282;
 		padding: 2px;
 		outline: none;
 	}
@@ -110,11 +113,13 @@ body {
 
 	input[type="submit"] {
 		border: 1px solid #d59843;
-		background-color: #AD926B;
+		background-color: #CFA76E;
 		color: #ffffff;
-		border-radius: 5px;
+		border-radius: 10px;
 		padding: 5px;
 		margin-top: 10px;
+		height: 35px;
+		width: 80px;
 	}
 
 	input[type="submit"]:hover {
@@ -130,9 +135,9 @@ body {
 		clear: left;
 	}
 	.submit {
-		width: 310px;
+		width: 460px;
 		text-align: right;
-		margin:auto;
+		margin: 10px auto 0 auto;
 	}
 
 	
